@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">	
+
+<suite name="Orange HRM Regression Suite">
+         
+<test name="Orange HRM login">
+	 <classes>
+	   <class name="com.orangeHRM.test.LoginTest"/>
+	 </classes>
+   </test>
+   
+</suite>

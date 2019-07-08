@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Orange HRM Regression Suite" duration-ms="36030" started-at="2019-07-06T08:10:02Z" finished-at="2019-07-06T08:10:38Z">
+    <groups>
+    </groups>
+    <test name="Orange HRM login" duration-ms="36030" started-at="2019-07-06T08:10:02Z" finished-at="2019-07-06T08:10:38Z">
+      <class name="com.orangeHRM.test.LoginTest">
+        <test-method status="PASS" signature="browserAppLaunch()[pri:0, instance:com.orangeHRM.test.LoginTest@146ba0ac]" name="browserAppLaunch" is-config="true" duration-ms="19091" started-at="2019-07-06T13:40:02Z" finished-at="2019-07-06T13:40:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserAppLaunch -->
+        <test-method status="PASS" signature="verifyValidLogin()[pri:0, instance:com.orangeHRM.test.LoginTest@146ba0ac]" name="verifyValidLogin" duration-ms="14400" started-at="2019-07-06T13:40:21Z" description="TC_001: Verifying valid login functionality" finished-at="2019-07-06T13:40:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyValidLogin -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:com.orangeHRM.test.LoginTest@146ba0ac]" name="closeApp" is-config="true" duration-ms="2504" started-at="2019-07-06T13:40:36Z" finished-at="2019-07-06T13:40:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- com.orangeHRM.test.LoginTest -->
+    </test> <!-- Orange HRM login -->
+  </suite> <!-- Orange HRM Regression Suite -->
+</testng-results>
